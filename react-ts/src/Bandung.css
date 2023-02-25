@@ -1,0 +1,314 @@
+.menu{
+    margin: 10px 0px;
+    fontSize: 18px ;
+}
+
+.menu-action{
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin: 10px 0px;
+}
+
+.menu-action:hover{
+   transform: scale(1.05);
+   text-decoration: underline;
+}
+
+/*above is used*/
+
+body {
+  margin: 0 ;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+.image{
+    width: 500px;
+    height: 450px; 
+    border-radius: 5px;
+    background-color: rgb(129, 129, 129);
+    text-align: center;  
+}
+
+@media (max-width: 500px) {
+    .image{
+        width: 90%;  
+        height: 100%; 
+    }
+}
+
+.sign-in-form{
+    background-color: white;
+    color: black;
+    padding: 1.5em 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 2px 1px 1px rgb(63, 63, 63);
+    border-radius: 3px;
+    width: 500px;
+}
+ .sign-in-form form .title {
+    font-weight: 600;
+    font-size: 30px;
+ }
+
+ .sign-in-form form .details {
+    font-weight: 400;
+    font-size: 17px;   
+ }
+
+ .sign-in-form form .error_message {
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 3px;
+    background-color: rgb(209, 69, 69);
+    color: white;
+    padding: 0.4em;
+    margin-bottom: 5px;
+ }
+
+ .sign-in-form form input {
+    width: 100%;
+    padding: 0.8em 0.7em;
+    margin: 5px 0px;
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 3px;
+ }
+
+ .sign-in-form form input:focus {
+    outline: 1px solid rgb(146, 146, 146);
+ }
+
+  .button {
+   text-align: right;
+ }
+
+ .sign-in-form form button {
+    background: green;
+    color: white;
+    border: none;
+    padding: 7px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .sign-in-form form button:hover {
+    background: rgb(0, 94, 0);
+  }
+
+  @media (max-width:600px) {
+    .sign-in-form form .title {
+        font-weight: 600;
+        font-size: 27px;
+     }
+    
+     .sign-in-form form .details {
+        font-weight: 400;
+        font-size: 15px; 
+    }
+
+    .sign-in-form{
+        box-shadow: none;
+        border-radius: 0px;
+    }
+    .sign-in-form form input {
+        padding: 0.6em 0.7em;
+    }
+
+    .sign-in-form form button {
+    padding: 7px 10px;
+    }
+  }
+
+  @media (max-width:500px) {
+    .sign-in-form{
+        box-shadow: none;
+        border-radius: 0px;
+        width: 100%;
+    }
+
+    .sign-in-form form .title {
+        font-weight: 600;
+        font-size: 25px;
+     }
+  }
+
+
+  button{
+    border: none;
+  }
+
+
+.entity-label{
+    background-color: rgb(61, 61, 61);
+    color: white;
+    padding: 5px 10px;
+    font-weight: 600;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.entity-label:hover{
+    background-color: rgb(44, 44, 44); 
+}
+
+.list-card{
+    background-color: rgb(46, 46, 46);
+    padding: 0.5em 1.5em;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px 0px rgb(124, 124, 124);
+}
+
+.update_div{
+    width: 40%;
+}
+
+@media (max-width:800px) {
+    .update_div{
+        width: 60%;
+    }
+}
+
+@media (max-width:600px) {
+    .update_div{
+        width: 80%;
+    }
+}
+
+@media (max-width:500px) {
+    .update_div{
+        width: 90%;
+    }
+}
+
+.fields{
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.fields::placeholder{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(163, 163, 163);
+}
+
+.fields:focus{
+   outline: 1px solid rgb(105, 105, 105);
+}
+
+.update_div .input_field{
+    width: 100%;
+}
+
+.update_div .text_area{
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.update_div .editor_field{
+   background-color: white;
+   color: black;
+   height: 40vh;
+}
+
+.update_div .create_button{
+    background-color: green; 
+    color: white;
+    padding: 0.5em 1.2em;
+    margin-top: 7px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.update_div .create_button:hover{
+    transform: scale(1.05);
+}
+
+.update_div .update_button{
+    background-color: white; 
+    color: green;
+    padding: 0.5em 1.2em;
+    margin-top: 7px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.update_div .update_button:hover{
+    transform: scale(1.05);
+}
+
+
+@media (max-width:500px) {
+    .list-card{
+        border-radius: 0px;
+        box-shadow: none;
+    }
+}
+
+  .toolbar{
+    text-align: center;
+    margin: auto;
+  }
+  
+  .editor{
+    padding: 0px 10px;
+  }
+
+  /*//////////////////////// DELETE//////////////////////////////// */
+  .delete_popup {
+    background-color: white;
+    color: black;
+    width: 300px;
+    font-size: 18px;
+    padding: 20px 15px;
+    border-radius: 3px;
+  }
+  button{
+    margin: 30px 10px 10px 0px;
+    cursor: pointer;
+    border: none;
+    padding: 0.2em 0.8em;
+    border-radius: 2px; 
+    font-size: 13px;
+  }
+  
+  .buttons{
+    display: flex;
+    justify-content: space-around;
+  }
+  .yes_button{
+      background-color: green;
+      color: white;
+  }
+  .no_button{
+     background-color: rgb(201, 58, 58);
+     color: white;
+  }
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  width: 100%;
+}
